@@ -9,31 +9,31 @@ description: 'tba'
 
 ### Ingredients
 
-- 200g Tofu
-- 1/2 Lime
-- 2 Clove Garlic
-- 1 Red Onion
-- 1 Tsp Olive Oil
-- 1/2 Zucchini
-- 1 Red Pepper
-- 1 Red Chili
-- 2 Tspn Nutritional Yeast
-- 2 Tbsp Rosemary
-- 1 Tbsp Black Pepper
+- 200g tofu
+- 1/2 lime
+- 2 cloves garlic
+- 1 red onion
+- 1 tsp olive oil
+- 1/2 zucchini
+- 1 red pepper
+- 1 red chili
+- 2 tsp nutritional yeast
+- 1 tbs black pepper
 - 1 Pinch Sea Salt
-- 2 Tspn Cayenne
-- 1 Tspn Kurkuma
-- 1 Tspn Curry
+- 2 tbs rosemary
+- 2 tbs cayenne
+- 1 tbs kurkuma
+- 1 tbs curry
 
 ### Instructions
 
-1. Heat Olive Oil in a pan
-2. Scramble the Tofu into the pan. Fry for ~5 minutes, medium heat.
-3. Cut Onion into Slices, Chop Garlic
-4. Push Tofu to one side in the pan to make space for the garlic and onion
+1. Heat olive oil in a pan
+2. Scramble the tofu into the pan with your hands. Fry for ~5 minutes, medium heat.
+3. Cut onion into slices, chop garlic
+4. Push tofu to one side in the pan to make space for the garlic and onion
 5. Add more olive oil and garlic and onion
 6. Fry until glossy / slightly fried
-6. Dice Zucchini and Pepper, Chop Chili, add to pan
+6. Dice zucchini and bell pepper, chop chili, add to pan
 7. Add nutritional yeast and spices
 8. Fry until desired consistency
 9. serve
