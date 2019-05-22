@@ -21,4 +21,4 @@ description: 'tba'
 
 ### Instructions
 
-Cut the frui into mouth-sized dices and add them to the served bowl. Top with cashews, kurkuma, curry and sprinkle the sesame.
+Cut the fruit into mouth-sized dices and add them to the served bowl. Top with cashews, kurkuma, curry and sprinkle the sesame.
