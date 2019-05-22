@@ -1,13 +1,15 @@
 ---
-section: 'recipe'
-path: '/breakfast-bowl'
-date: '2019-05-22'
-title: 'Breakfast Bowl'
-author: 'Jasper Meyer'
-description: 'tba'
+section: "recipe"
+path: "/breakfast-bowl"
+date: "2019-05-22"
+title: "Breakfast Bowl"
+author: "Jasper Meyer"
+description: "tba"
 ---
 
 > Servings: 1 Bowl
+
+![Image of Breakfast Bowl](./presentation.jpg)
 
 ### Ingredients
 
