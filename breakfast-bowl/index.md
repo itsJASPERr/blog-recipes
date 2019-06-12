@@ -9,8 +9,6 @@ description: "tba"
 
 > Servings: 1 Bowl
 
-![Image of Breakfast Bowl](./presentation.jpg)
-
 ### Ingredients
 
 - 1 banana
