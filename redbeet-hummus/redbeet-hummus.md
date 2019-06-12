@@ -1,6 +1,6 @@
 ---
 section: 'recipe'
-path: '/redbeet-hummus'
+path: '/recipes/redbeet-hummus'
 date: '2019-05-12'
 title: 'Redbeet Hummus'
 author: 'Jasper Meyer'

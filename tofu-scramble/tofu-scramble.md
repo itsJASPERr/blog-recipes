@@ -1,6 +1,6 @@
 ---
 section: 'recipe'
-path: '/tofu-scramble'
+path: '/recipes/tofu-scramble'
 date: '2019-05-20'
 title: 'Tofu Scramble'
 author: 'Jasper Meyer'
