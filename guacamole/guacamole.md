@@ -28,4 +28,4 @@ titleImg: 'guac.png'
 
 ### Instructions with Images
 
-![Prepare the veggies](images/1.JPEG 'Prepare the veggies')
+![Prepare the veggies](1.JPEG 'Prepare the veggies')
