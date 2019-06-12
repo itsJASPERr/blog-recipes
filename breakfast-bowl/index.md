@@ -1,6 +1,6 @@
 ---
 section: "recipe"
-path: "/breakfast-bowl"
+path: "/recipes/breakfast-bowl"
 date: "2019-05-22"
 title: "Breakfast Bowl"
 author: "Jasper Meyer"
