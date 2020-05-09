@@ -5,7 +5,6 @@ date: '2019-05-28'
 title: 'Guacamole'
 author: 'Jasper Meyer'
 description: 'tba'
-titleImg: 'guac.png'
 ---
 
 ### Ingredients
