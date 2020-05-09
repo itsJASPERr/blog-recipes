@@ -1,0 +1,939 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 2.4.3"/><title data-react-helmet="true">Jasper Meyer</title><link data-react-helmet="true" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"/><meta data-react-helmet="true" name="description" content="A Portfolio for Jasper - This is where I write my thoughts."/><meta data-react-helmet="true" name="keywords" content="react, web development, cooking, vegan, recipes, healthy"/><meta data-react-helmet="true" name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/><link rel="manifest" href="/blog-recipes/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/blog-recipes/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/blog-recipes/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/blog-recipes/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/blog-recipes/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/blog-recipes/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/blog-recipes/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/blog-recipes/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/blog-recipes/icons/icon-512x512.png"/><style id="jss-server-side">html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  background-color: #fff;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+.MuiContainer-root {
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-root {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width:600px) {
+  .MuiContainer-fixed {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-fixed {
+    max-width: 960px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-fixed {
+    max-width: 1280px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-fixed {
+    max-width: 1920px;
+  }
+}
+@media (min-width:0px) {
+  .MuiContainer-maxWidthXs {
+    max-width: 444px;
+  }
+}
+@media (min-width:600px) {
+  .MuiContainer-maxWidthSm {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-maxWidthMd {
+    max-width: 960px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 1280px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-maxWidthXl {
+    max-width: 1920px;
+  }
+}
+
+.jss92 {
+  margin-top: 32px;
+}
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiTypography-h1 {
+  font-size: 6rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.01562em;
+}
+.MuiTypography-h2 {
+  font-size: 3.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.00833em;
+}
+.MuiTypography-h3 {
+  font-size: 3rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: 0em;
+}
+.MuiTypography-h4 {
+  font-size: 2.125rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.00735em;
+}
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0em;
+}
+.MuiTypography-h6 {
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+}
+.MuiTypography-subtitle2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.57;
+  letter-spacing: 0.00714em;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 2.66;
+  letter-spacing: 0.08333em;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #f7c0ab;
+}
+.MuiTypography-colorSecondary {
+  color: #9fa7a7;
+}
+.MuiTypography-colorTextPrimary {
+  color: rgba(0, 0, 0, 0.87);
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #ff1744;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+.MuiLink-underlineNone {
+  text-decoration: none;
+}
+.MuiLink-underlineHover {
+  text-decoration: none;
+}
+.MuiLink-underlineHover:hover {
+  text-decoration: underline;
+}
+.MuiLink-underlineAlways {
+  text-decoration: underline;
+}
+.MuiLink-button {
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  position: relative;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiLink-button::-moz-focus-inner {
+  border-style: none;
+}
+.jss81 {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  font-size: 0.9em;
+  list-style: none;
+  margin-top: 32px;
+}
+.jss81>li {
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+.jss82 {
+  color: #9fa7a7;
+  text-decoration: none;
+}
+.jss82:hover {
+  text-decoration: none;
+}
+.jss83 {
+  color: #f7c0ab;
+  text-decoration: underline;
+}
+.jss83:hover {
+  text-decoration: underline;
+}
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+.MuiPaper-rounded {
+  border-radius: 4px;
+}
+.MuiPaper-elevation0 {
+  box-shadow: none;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation2 {
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation3 {
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation5 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation6 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation7 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation8 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation9 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation10 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation11 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation12 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation13 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation14 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation15 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation16 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation17 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation18 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation19 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation20 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation21 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation22 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation23 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation24 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+.MuiAppBar-root {
+  width: 100%;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.MuiAppBar-positionFixed {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: fixed;
+}
+.MuiAppBar-positionAbsolute {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: absolute;
+}
+.MuiAppBar-positionSticky {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: sticky;
+}
+.MuiAppBar-positionStatic {
+  position: static;
+}
+.MuiAppBar-positionRelative {
+  position: relative;
+}
+.MuiAppBar-colorDefault {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f5f5f5;
+}
+.MuiAppBar-colorPrimary {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f7c0ab;
+}
+.MuiAppBar-colorSecondary {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #9fa7a7;
+}
+.MuiToolbar-root {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.MuiToolbar-gutters {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .MuiToolbar-gutters {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.MuiToolbar-regular {
+  min-height: 56px;
+}
+@media (min-width:0px) and (orientation: landscape) {
+  .MuiToolbar-regular {
+    min-height: 48px;
+  }
+}
+@media (min-width:600px) {
+  .MuiToolbar-regular {
+    min-height: 64px;
+  }
+}
+.MuiToolbar-dense {
+  min-height: 48px;
+}
+body {
+  background-color: #fff;
+}
+.jss1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.jss2 {
+  padding: 20px 20px 0px;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.jss3 {
+  flex-grow: 1;
+}
+.jss4 {
+  color: #fff;
+  text-decoration: none;
+}
+.jss5 {
+  width: 500px;
+  margin-bottom: 0;
+}
+.jss174 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  margin-top: 32px;
+  flex-direction: column;
+}
+.jss175 {
+  width: 100%;
+  color: #9fa7a7;
+  display: flex;
+  padding: 16px;
+  font-size: .8em;
+  font-weight: 400;
+  justify-content: center;
+}
+.jss176 {
+  flex: 1;
+}
+#___gatsby {
+  min-height: 100%;
+}
+#___gatsby > div {
+  min-height: 100%;
+}
+html {
+  min-height: 100%;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+}
+img {
+  max-width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 0;
+  margin-right: 0;
+  padding-left: 0;
+  border-style: none;
+  padding-right: 0;
+  margin-bottom: 1.45rem;
+  padding-bottom: 0;
+}
+.MuiList-root {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+}
+.MuiList-padding {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.MuiList-subheader {
+  padding-top: 0;
+}
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  justify-content: center;
+  -moz-appearance: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+.MuiListItem-root {
+  width: 100%;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.MuiListItem-root.Mui-focusVisible {
+  background-color: rgba(0, 0, 0, 0.14);
+}
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+  background-color: rgba(0, 0, 0, 0.14);
+}
+.MuiListItem-root.Mui-disabled {
+  opacity: 0.5;
+}
+.MuiListItem-container {
+  position: relative;
+}
+.MuiListItem-dense {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.MuiListItem-alignItemsFlexStart {
+  align-items: flex-start;
+}
+.MuiListItem-divider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  background-clip: padding-box;
+}
+.MuiListItem-gutters {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.MuiListItem-button {
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiListItem-button:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+@media (hover: none) {
+  .MuiListItem-button:hover {
+    background-color: transparent;
+  }
+}
+.MuiListItem-secondaryAction {
+  padding-right: 48px;
+}
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  user-select: none;
+  flex-shrink: 0;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #f7c0ab;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #9fa7a7;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #ff1744;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-edgeStart {
+  margin-left: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+  margin-left: -3px;
+}
+.MuiIconButton-edgeEnd {
+  margin-right: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+  margin-right: -3px;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #f7c0ab;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(247, 192, 171, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #9fa7a7;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(159, 167, 167, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 3px;
+  font-size: 1.125rem;
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.jss158 {
+  padding: 9px;
+}
+.jss161 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: inherit;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+}
+.MuiCheckbox-root {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: #f7c0ab;
+}
+.MuiCheckbox-colorPrimary.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiCheckbox-colorPrimary.Mui-checked:hover {
+  background-color: rgba(247, 192, 171, 0.08);
+}
+@media (hover: none) {
+  .MuiCheckbox-colorPrimary.Mui-checked:hover {
+    background-color: transparent;
+  }
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #9fa7a7;
+}
+.MuiCheckbox-colorSecondary.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiCheckbox-colorSecondary.Mui-checked:hover {
+  background-color: rgba(159, 167, 167, 0.08);
+}
+@media (hover: none) {
+  .MuiCheckbox-colorSecondary.Mui-checked:hover {
+    background-color: transparent;
+  }
+}
+.MuiFormControlLabel-root {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-left: -11px;
+  margin-right: 16px;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiFormControlLabel-root.Mui-disabled {
+  cursor: default;
+}
+.MuiFormControlLabel-labelPlacementStart {
+  margin-left: 16px;
+  margin-right: -11px;
+  flex-direction: row-reverse;
+}
+.MuiFormControlLabel-labelPlacementTop {
+  margin-left: 16px;
+  flex-direction: column-reverse;
+}
+.MuiFormControlLabel-labelPlacementBottom {
+  margin-left: 16px;
+  flex-direction: column;
+}
+.MuiFormControlLabel-label.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+}
+.MuiListItemText-root {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.MuiListItemText-multiline {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.MuiListItemText-inset {
+  padding-left: 56px;
+}
+.MuiLinearProgress-root {
+  width: 80%;
+  height: 2px;
+  position: relative;
+  overflow: hidden;
+}
+.MuiLinearProgress-colorPrimary {
+  background-color: rgb(252, 234, 227);
+}
+.MuiLinearProgress-colorSecondary {
+  background-color: rgb(208, 212, 212);
+}
+.MuiLinearProgress-buffer {
+  background-color: transparent;
+}
+.MuiLinearProgress-query {
+  transform: rotate(180deg);
+}
+.MuiLinearProgress-dashed {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: buffer 3s infinite linear;
+  margin-top: 0;
+  animation-name: MuiLinearProgress-keyframes-buffer;
+}
+.MuiLinearProgress-dashedColorPrimary {
+  background-size: 10px 10px;
+  background-image: radial-gradient(rgb(252, 234, 227) 0%, rgb(252, 234, 227) 16%, transparent 42%);
+  background-position: 0px -23px;
+}
+.MuiLinearProgress-dashedColorSecondary {
+  background-size: 10px 10px;
+  background-image: radial-gradient(rgb(208, 212, 212) 0%, rgb(224, 226, 226) 16%, transparent 42%);
+  background-position: 0px -23px;
+}
+.MuiLinearProgress-bar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  transition: transform 0.2s linear;
+  transform-origin: left;
+}
+.MuiLinearProgress-barColorPrimary {
+  background-color: #f7c0ab;
+}
+.MuiLinearProgress-barColorSecondary {
+  background-color: #9fa7a7;
+}
+.MuiLinearProgress-bar1Indeterminate {
+  width: auto;
+  animation: mui-indeterminate1 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  animation-name: MuiLinearProgress-keyframes-mui-indeterminate1;
+}
+.MuiLinearProgress-bar1Determinate {
+  transition: transform .4s linear;
+}
+.MuiLinearProgress-bar1Buffer {
+  z-index: 1;
+  transition: transform .4s linear;
+}
+.MuiLinearProgress-bar2Indeterminate {
+  width: auto;
+  animation: mui-indeterminate2 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  animation-name: MuiLinearProgress-keyframes-mui-indeterminate2;
+  animation-delay: 1.15s;
+}
+.MuiLinearProgress-bar2Buffer {
+  transition: transform .4s linear;
+}
+@keyframes MuiLinearProgress-keyframes-mui-indeterminate1 {
+  0% {
+    left: -35%;
+    right: 100%;
+  }
+  60% {
+    left: 100%;
+    right: -90%;
+  }
+  100% {
+    left: 100%;
+    right: -90%;
+  }
+}
+@keyframes MuiLinearProgress-keyframes-mui-indeterminate2 {
+  0% {
+    left: -200%;
+    right: 100%;
+  }
+  60% {
+    left: 107%;
+    right: -8%;
+  }
+  100% {
+    left: 107%;
+    right: -8%;
+  }
+}
+@keyframes MuiLinearProgress-keyframes-buffer {
+  0% {
+    opacity: 1;
+    background-position: 0px -23px;
+  }
+  50% {
+    opacity: 0;
+    background-position: 0px -23px;
+  }
+  100% {
+    opacity: 1;
+    background-position: -200px -23px;
+  }
+}
+.jss93 {
+  color: #4A4A4A;
+  display: flex;
+  font-size: .8em;
+  align-items: center;
+  text-decoration: none;
+}
+.jss94 {
+  font-size: 1rem;
+}</style><link rel="shortcut icon" href="/icons-c3cc7878cfe81f08122c285b62e85871/favicon.ico"/><link rel="icon" type="image/png" sizes="16x16" href="/icons-c3cc7878cfe81f08122c285b62e85871/favicon-16x16.png"/><link rel="icon" type="image/png" sizes="32x32" href="/icons-c3cc7878cfe81f08122c285b62e85871/favicon-32x32.png"/><link rel="manifest" href="/icons-c3cc7878cfe81f08122c285b62e85871/manifest.json"/><meta name="mobile-web-app-capable" content="yes"/><meta name="theme-color" content="#fff"/><meta name="application-name" content="gatsby-starter-default"/><link rel="apple-touch-icon" sizes="57x57" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-57x57.png"/><link rel="apple-touch-icon" sizes="60x60" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-60x60.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-72x72.png"/><link rel="apple-touch-icon" sizes="76x76" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-76x76.png"/><link rel="apple-touch-icon" sizes="114x114" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-114x114.png"/><link rel="apple-touch-icon" sizes="120x120" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-120x120.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-144x144.png"/><link rel="apple-touch-icon" sizes="152x152" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-152x152.png"/><link rel="apple-touch-icon" sizes="167x167" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-167x167.png"/><link rel="apple-touch-icon" sizes="180x180" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-180x180.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-icon-1024x1024.png"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="apple-mobile-web-app-title" content="gatsby-starter-default"/><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-320x460.png"/><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-640x920.png"/><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-640x1096.png"/><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-750x1294.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-1182x2208.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-1242x2148.png"/><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-748x1024.png"/><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-768x1004.png"/><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-1496x2048.png"/><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/icons-c3cc7878cfe81f08122c285b62e85871/apple-touch-startup-image-1536x2008.png"/><link as="script" rel="preload" href="/blog-recipes/webpack-runtime-e6dd969c54276c01222d.js"/><link as="script" rel="preload" href="/blog-recipes/app-29de05c999f1c9c66210.js"/><link as="script" rel="preload" href="/blog-recipes/0-17aa457e948a90313d27.js"/><link as="script" rel="preload" href="/blog-recipes/11-55ae1eb8ba63d770a68f.js"/><link as="script" rel="preload" href="/blog-recipes/component---src-templates-recipe-js-5fd24b4f9bfadd6cc531.js"/><link as="fetch" rel="preload" href="/blog-recipes/static/d/875/path---recipes-guacamole-59-b-2a4-qZw2EF3zH2PVNBEpxAoGl0mjI.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="height:100%;display:flex;flex-direction:column"><header class="MuiPaper-root MuiPaper-elevation0 MuiAppBar-root MuiAppBar-positionStatic jss1"><div class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters jss2"><a class="MuiTypography-root MuiTypography-colorPrimary MuiLink-root MuiLink-underlineHover jss4" href="/blog-recipes/"><img class="jss5" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzYwIiBoZWlnaHQ9IjMzNyIgdmlld0JveD0iMCAwIDEzNjAgMzM3IiBmaWxsPSJub25lIj4NCiAgPGcgZmlsbD0iI0Y3QzBBQiIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgIDxwYXRoDQogICAgICBkPSJNNTAuNjg4IDI4MS4zMkM0Mi4wNDggMjgxLjMyIDM0LjA4IDI3OS45NzYgMjYuNzg0IDI3Ny4yODhDMTkuNjggMjc0Ljc5MiAxMi43NjggMjcwLjY2NCA2LjA0OCAyNjQuOTA0VjI1My4wOTZDMTguMTQ0IDI2Ni4zNDQgMzMuMjE2IDI3Mi45NjggNTEuMjY0IDI3Mi45NjhDNjcuNzc2IDI3Mi45NjggODAuNjQgMjY3Ljg4IDg5Ljg1NiAyNTcuNzA0Qzk5LjA3MiAyNDcuMzM2IDEwMy42OCAyMzIuMDcyIDEwMy42OCAyMTEuOTEyVjY5LjM1Mkg1MC40VjYxSDExMy4xODRWMjEwLjc2QzExMy4xODQgMjMzLjggMTA3LjYxNiAyNTEuMzY4IDk2LjQ4IDI2My40NjRDODUuMzQ0IDI3NS4zNjggNzAuMDggMjgxLjMyIDUwLjY4OCAyODEuMzJaTTE1OC4zMDggNjFIMTY3LjgxMkMxOTAuNDY4IDYxIDIwOC4xMzIgNjcuMDQ4IDIyMC44MDQgNzkuMTQ0QzIzMy40NzYgOTEuMDQ4IDIzOS44MTIgMTA3LjA4IDIzOS44MTIgMTI3LjI0QzIzOS44MTIgMTQxLjI1NiAyMzYuNzQgMTUzLjczNiAyMzAuNTk2IDE2NC42OEMyMjQuNDUyIDE3NS40MzIgMjE2LjEgMTgzLjc4NCAyMDUuNTQgMTg5LjczNkMxOTQuOTggMTk1LjQ5NiAxODMuMTcyIDE5OC4zNzYgMTcwLjExNiAxOTguMzc2SDE2Ny44MTJWMjc3SDE1OC4zMDhWNjFaTTE3MC42OTIgMTkwLjAyNEMxODguMTY0IDE5MC4wMjQgMjAyLjQ2OCAxODQuNjQ4IDIxMy42MDQgMTczLjg5NkMyMjQuNzQgMTYyLjk1MiAyMzAuMzA4IDE0Ny41OTIgMjMwLjMwOCAxMjcuODE2QzIzMC4zMDggMTA5IDIyNS4wMjggOTQuNiAyMTQuNDY4IDg0LjYxNkMyMDQuMSA3NC40NCAxODkuMzE2IDY5LjM1MiAxNzAuMTE2IDY5LjM1MkgxNjcuODEyVjE5MC4wMjRIMTcwLjY5MlpNMjU3LjIzMSAxMDMuMzM2QzI2OC41NTkgOTguMTUyIDI3NC4yMjMgODkuMzIgMjc0LjIyMyA3Ni44NFY0My43MkgyODQuNTkxVjc2Ljg0QzI4NC41OTEgODUuODY0IDI4Mi4wOTUgOTMuNjQgMjc3LjEwMyAxMDAuMTY4QzI3Mi4xMTEgMTA2LjUwNCAyNjUuNDg3IDExMC45MiAyNTcuMjMxIDExMy40MTZWMTAzLjMzNlpNMzYyLjg0OSAyODAuMTY4QzM1My42MzMgMjgwLjE2OCAzNDUuNDczIDI3OC42MzIgMzM4LjM2OSAyNzUuNTZDMzMxLjI2NSAyNzIuMjk2IDMyNi4xNzcgMjY4LjE2OCAzMjMuMTA1IDI2My4xNzZWMjQ3LjkxMkMzMjYuNzUzIDI1Ni4xNjggMzMxLjc0NSAyNjIuMzEyIDMzOC4wODEgMjY2LjM0NEMzNDQuNDE3IDI3MC4xODQgMzUyLjQ4MSAyNzIuMTA0IDM2Mi4yNzMgMjcyLjEwNEMzNzEuNjgxIDI3Mi4xMDQgMzc5LjI2NSAyNjkuMjI0IDM4NS4wMjUgMjYzLjQ2NEMzOTAuNzg1IDI1Ny41MTIgMzkzLjY2NSAyNDkuOTI4IDM5My42NjUgMjQwLjcxMkMzOTMuNjY1IDIzMi44NCAzOTIuMDMzIDIyNi43OTIgMzg4Ljc2OSAyMjIuNTY4QzM4NS41MDUgMjE4LjE1MiAzODAuMjI1IDIxMy43MzYgMzcyLjkyOSAyMDkuMzJMMzYxLjk4NSAyMDIuOTg0QzM1NC4xMTMgMTk4LjE4NCAzNDguMTYxIDE5NC40NCAzNDQuMTI5IDE5MS43NTJDMzQwLjI4OSAxODguODcyIDMzNy4yMTcgMTg1LjcwNCAzMzQuOTEzIDE4Mi4yNDhDMzMyLjYwOSAxNzguNiAzMzEuNDU3IDE3NC4zNzYgMzMxLjQ1NyAxNjkuNTc2QzMzMS40NTcgMTYxLjg5NiAzMzQuMTQ1IDE1NS43NTIgMzM5LjUyMSAxNTEuMTQ0QzM0NC44OTcgMTQ2LjUzNiAzNTEuOTA1IDE0NC4yMzIgMzYwLjU0NSAxNDQuMjMyQzM3MS4xMDUgMTQ0LjIzMiAzNzkuOTM3IDE0Ni42MzIgMzg3LjA0MSAxNTEuNDMyVjE2NC4xMDRDMzgxLjA4OSAxNTYuMjMyIDM3Mi41NDUgMTUyLjI5NiAzNjEuNDA5IDE1Mi4yOTZDMzU1LjI2NSAxNTIuMjk2IDM1MC4yNzMgMTUzLjgzMiAzNDYuNDMzIDE1Ni45MDRDMzQyLjU5MyAxNTkuOTc2IDM0MC42NzMgMTYzLjkxMiAzNDAuNjczIDE2OC43MTJDMzQwLjY3MyAxNzIuOTM2IDM0MS44MjUgMTc2LjY4IDM0NC4xMjkgMTc5Ljk0NEMzNDYuNDMzIDE4My4wMTYgMzQ5LjYwMSAxODUuODk2IDM1My42MzMgMTg4LjU4NEMzNTcuODU3IDE5MS4yNzIgMzY0Ljc2OSAxOTUuMzA0IDM3NC4zNjkgMjAwLjY4QzM4NC4xNjEgMjA2LjI0OCAzOTEuMzYxIDIxMi4wMDggMzk1Ljk2OSAyMTcuOTZDNDAwLjU3NyAyMjMuNzIgNDAyLjg4MSAyMzEuMzA0IDQwMi44ODEgMjQwLjcxMkM0MDIuODgxIDI1Mi42MTYgMzk4Ljk0NSAyNjIuMjE2IDM5MS4wNzMgMjY5LjUxMkMzODMuMzkzIDI3Ni42MTYgMzczLjk4NSAyODAuMTY4IDM2Mi44NDkgMjgwLjE2OFpNNjIzLjMxMSAyNzdMNTA4Ljk3NSAxNTYuOTA0VjI3N0g0OTkuNDcxVjYxSDUwOC45NzVWMTM5LjMzNkw1OTkuMTE5IDYxSDYxMi42NTVMNTExLjU2NyAxNDcuNEw2MzUuOTgzIDI3N0g2MjMuMzExWk02NzIuMzE0IDExNy43MzZDNjY5LjYyNiAxMTcuNzM2IDY2Ny4yMjYgMTE2Ljc3NiA2NjUuMTE0IDExNC44NTZDNjYzLjE5NCAxMTIuOTM2IDY2Mi4yMzQgMTEwLjUzNiA2NjIuMjM0IDEwNy42NTZDNjYyLjIzNCAxMDQuOTY4IDY2My4xOTQgMTAyLjY2NCA2NjUuMTE0IDEwMC43NDRDNjY3LjIyNiA5OC44MjQgNjY5LjYyNiA5Ny44NjQgNjcyLjMxNCA5Ny44NjRDNjc1LjAwMiA5Ny44NjQgNjc3LjMwNiA5OC44MjQgNjc5LjIyNiAxMDAuNzQ0QzY4MS4zMzggMTAyLjY2NCA2ODIuMzk0IDEwNC45NjggNjgyLjM5NCAxMDcuNjU2QzY4Mi4zOTQgMTEwLjUzNiA2ODEuMzM4IDExMi45MzYgNjc5LjIyNiAxMTQuODU2QzY3Ny4zMDYgMTE2Ljc3NiA2NzUuMDAyIDExNy43MzYgNjcyLjMxNCAxMTcuNzM2Wk02NjcuNzA2IDE0Ny40SDY3Ni45MjJWMjc3SDY2Ny43MDZWMTQ3LjRaTTc2Ni4yMzEgMjc4LjcyOEM3NTIuMDIzIDI3OC43MjggNzQwLjIxNSAyNzQuNDA4IDczMC44MDcgMjY1Ljc2OEM3MjEuNTkxIDI1Ny4xMjggNzE2Ljk4MyAyNDUuMjI0IDcxNi45ODMgMjMwLjA1NlY5NS4yNzJINzI2LjE5OVYxNDcuNEg3NjUuOTQzVjE1NS40NjRINzI2LjE5OVYyMzAuMDU2QzcyNi4xOTkgMjQyLjcyOCA3MjkuOTQzIDI1Mi43MTIgNzM3LjQzMSAyNjAuMDA4Qzc0NS4xMTEgMjY3LjExMiA3NTQuNzExIDI3MC42NjQgNzY2LjIzMSAyNzAuNjY0VjI3OC43MjhaTTg1MS41MTMgMjgwLjc0NEM4MzkuMDMzIDI4MC43NDQgODI3LjUxMyAyNzcuNzY4IDgxNi45NTMgMjcxLjgxNkM4MDYuNTg1IDI2NS44NjQgNzk4LjMyOSAyNTcuNzA0IDc5Mi4xODUgMjQ3LjMzNkM3ODYuMDQxIDIzNi45NjggNzgyLjk2OSAyMjUuMjU2IDc4Mi45NjkgMjEyLjJDNzgyLjk2OSAyMDAuMTA0IDc4Ni4wNDEgMTg4Ljk2OCA3OTIuMTg1IDE3OC43OTJDNzk4LjMyOSAxNjguNDI0IDgwNi42ODEgMTYwLjE2OCA4MTcuMjQxIDE1NC4wMjRDODI3Ljk5MyAxNDcuODggODM5LjgwMSAxNDQuODA4IDg1Mi42NjUgMTQ0LjgwOEM4NjMuNDE3IDE0NC44MDggODcyLjYzMyAxNDYuNTM2IDg4MC4zMTMgMTQ5Ljk5MkM4ODcuOTkzIDE1My40NDggODk1LjQ4MSAxNTguODI0IDkwMi43NzcgMTY2LjEyVjE4MS42NzJDODk2LjQ0MSAxNzIuMjY0IDg4OS4zMzcgMTY1LjE2IDg4MS40NjUgMTYwLjM2Qzg3My43ODUgMTU1LjM2OCA4NjQuMTg1IDE1Mi44NzIgODUyLjY2NSAxNTIuODcyQzg0Mi4xMDUgMTUyLjg3MiA4MzIuMTIxIDE1NS42NTYgODIyLjcxMyAxNjEuMjI0QzgxMy40OTcgMTY2LjYgODA2LjEwNSAxNzMuODk2IDgwMC41MzcgMTgzLjExMkM3OTQuOTY5IDE5Mi4zMjggNzkyLjE4NSAyMDIuMjE2IDc5Mi4xODUgMjEyLjc3NkM3OTIuMTg1IDIyNC4yOTYgNzk0Ljg3MyAyMzQuNjY0IDgwMC4yNDkgMjQzLjg4QzgwNS42MjUgMjUyLjkwNCA4MTIuODI1IDI2MC4wMDggODIxLjg0OSAyNjUuMTkyQzgzMS4wNjUgMjcwLjE4NCA4NDAuOTUzIDI3Mi42OCA4NTEuNTEzIDI3Mi42OEM4NzMuMDE3IDI3Mi42OCA4OTAuMTA1IDI2Mi45ODQgOTAyLjc3NyAyNDMuNTkyVjI1OS4xNDRDODk1Ljg2NSAyNjYuNDQgODg4LjE4NSAyNzEuOTEyIDg3OS43MzcgMjc1LjU2Qzg3MS40ODEgMjc5LjAxNiA4NjIuMDczIDI4MC43NDQgODUxLjUxMyAyODAuNzQ0Wk05MjguMjY5IDYxSDkzNy40ODVWMTc0LjE4NEM5NDEuNTE3IDE2NS41NDQgOTQ4LjMzMyAxNTguNDQgOTU3LjkzMyAxNTIuODcyQzk2Ny43MjUgMTQ3LjExMiA5NzcuNjEzIDE0NC4yMzIgOTg3LjU5NyAxNDQuMjMyQzEwMDUuODQgMTQ0LjIzMiAxMDE5Ljg1IDE0OS4yMjQgMTAyOS42NSAxNTkuMjA4QzEwMzkuNjMgMTY5LjE5MiAxMDQ0LjYyIDE4My4zMDQgMTA0NC42MiAyMDEuNTQ0VjI3N0gxMDM1LjQxVjIwMS41NDRDMTAzNS40MSAxODUuOCAxMDMxLjE4IDE3My43MDQgMTAyMi43MyAxNjUuMjU2QzEwMTQuNDggMTU2LjYxNiAxMDAyLjc3IDE1Mi4yOTYgOTg3LjU5NyAxNTIuMjk2Qzk3OC4zODEgMTUyLjI5NiA5NjkuOTMzIDE1NC41MDQgOTYyLjI1MyAxNTguOTJDOTU0LjU3MyAxNjMuMTQ0IDk0OC41MjUgMTY5LjA5NiA5NDQuMTA5IDE3Ni43NzZDOTM5LjY5MyAxODQuMjY0IDkzNy40ODUgMTkyLjUyIDkzNy40ODUgMjAxLjU0NFYyNzdIOTI4LjI2OVY2MVpNMTE0NC4wNiAyNzIuMzkyQzExNTQuMDQgMjcyLjM5MiAxMTYzLjU1IDI2OS44IDExNzIuNTcgMjY0LjYxNkMxMTgxLjYgMjU5LjQzMiAxMTg5LjA4IDI1Mi4zMjggMTE5NS4wNCAyNDMuMzA0VjI1Ny45OTJDMTE4Ny45MyAyNjUuODY0IDExODAuMTYgMjcxLjYyNCAxMTcxLjcxIDI3NS4yNzJDMTE2My4yNiAyNzguNzI4IDExNTMuNjYgMjgwLjQ1NiAxMTQyLjkxIDI4MC40NTZDMTEzMSAyODAuNDU2IDExMTkuNzcgMjc3LjI4OCAxMTA5LjIxIDI3MC45NTJDMTA5OC44NCAyNjQuNjE2IDEwOTAuNDkgMjU2LjE2OCAxMDg0LjE2IDI0NS42MDhDMTA3OC4wMSAyMzUuMDQ4IDEwNzQuOTQgMjIzLjgxNiAxMDc0Ljk0IDIxMS45MTJDMTA3NC45NCAxOTkuMDQ4IDEwNzguMDEgMTg3LjUyOCAxMDg0LjE2IDE3Ny4zNTJDMTA5MC4zIDE2Ni45ODQgMTA5OC42NSAxNTguOTIgMTEwOS4yMSAxNTMuMTZDMTExOS45NiAxNDcuNCAxMTMxLjg3IDE0NC41MiAxMTQ0LjkyIDE0NC41MkMxMTY0Ljg5IDE0NC41MiAxMTgxLjg4IDE1Mi4zOTIgMTE5NS45IDE2OC4xMzZMMTEwNS40NyAyNTcuNDE2QzExMTEuOCAyNjIuNiAxMTE3Ljk1IDI2Ni40NCAxMTIzLjkgMjY4LjkzNkMxMTI5Ljg1IDI3MS4yNCAxMTM2LjU3IDI3Mi4zOTIgMTE0NC4wNiAyNzIuMzkyWk0xMDg0LjE2IDIxMS4wNDhDMTA4NC4xNiAyMjYuOTg0IDEwODkuNDQgMjQwLjYxNiAxMTAwIDI1MS45NDRMMTE4NC4zOCAxNjguMTM2QzExNzguMDQgMTYyLjU2OCAxMTcxLjkgMTU4LjYzMiAxMTY1Ljk1IDE1Ni4zMjhDMTE2MCAxNTMuODMyIDExNTIuODkgMTUyLjU4NCAxMTQ0LjY0IDE1Mi41ODRDMTEzMi45MiAxNTIuNTg0IDExMjIuNDYgMTU1LjE3NiAxMTEzLjI0IDE2MC4zNkMxMTA0LjIyIDE2NS4zNTIgMTA5Ny4xMiAxNzIuMjY0IDEwOTEuOTMgMTgxLjA5NkMxMDg2Ljc1IDE4OS45MjggMTA4NC4xNiAxOTkuOTEyIDEwODQuMTYgMjExLjA0OFpNMTIyNC43MSAxNDcuNEgxMjMzLjkyVjE3Ni4yQzEyMzguMTUgMTY2LjYgMTI0NS4zNSAxNTguOTIgMTI1NS41MiAxNTMuMTZDMTI2NS43IDE0Ny4yMDggMTI3Ni45MyAxNDQuMjMyIDEyODkuMjIgMTQ0LjIzMkMxMzA1LjE1IDE0NC4yMzIgMTMxNy43MyAxNDkuMzIgMTMyNi45NSAxNTkuNDk2QzEzMzYuMzUgMTY5LjQ4IDEzNDEuMDYgMTgzLjQ5NiAxMzQxLjA2IDIwMS41NDRWMjc3SDEzMzEuODRWMjAxLjU0NEMxMzMxLjg0IDE4NS45OTIgMTMyOCAxNzMuODk2IDEzMjAuMzIgMTY1LjI1NkMxMzEyLjgzIDE1Ni42MTYgMTMwMi4yNyAxNTIuMjk2IDEyODguNjQgMTUyLjI5NkMxMjc4LjY2IDE1Mi4yOTYgMTI2OS40NCAxNTQuNiAxMjYwLjk5IDE1OS4yMDhDMTI1Mi43NCAxNjMuNjI0IDEyNDYuMTEgMTY5Ljc2OCAxMjQxLjEyIDE3Ny42NEMxMjM2LjMyIDE4NS41MTIgMTIzMy45MiAxOTQuNDQgMTIzMy45MiAyMDQuNDI0VjI3N0gxMjI0LjcxVjE0Ny40WiINCiAgICAgIGZpbGw9ImJsYWNrIg0KICAgIC8+DQogIDwvZz4NCjwvc3ZnPg0K" alt="Logo"/></a><nav><ul class="jss81"><li><a class="MuiTypography-root MuiTypography-colorPrimary MuiLink-root MuiLink-underlineHover jss82" href="/blog-recipes/">home</a></li><li><a class="MuiTypography-root MuiTypography-colorPrimary MuiLink-root MuiLink-underlineHover jss82 jss83" href="/blog-recipes/recipes">recipes</a></li></ul></nav></div></header><div class="MuiContainer-root MuiContainer-maxWidthLg" style="flex:1"><div class="MuiBox-root jss92"><div class="MuiContainer-root MuiContainer-maxWidthMd"><a class="jss93" style="margin-top:50px" href="/blog-recipes/recipes"><svg class="MuiSvgIcon-root jss94" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation" alt="Go back"><path d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"></path><path fill="none" d="M0 0h24v24H0z"></path></svg><span class="MuiTypography-root MuiTypography-caption">Back to Recipes</span></a><h2 class="MuiTypography-root MuiTypography-h2" style="margin-top:20px">Guacamole</h2><h4 class="MuiTypography-root MuiTypography-h4" style="margin-top:15px;margin-bottom:15px;font-size:.8em;color:#9fa7a7;font-weight:400">Posted by <!-- -->Jasper Meyer<!-- --> on <!-- -->2019-05-28</h4><div><div><h4 class="MuiTypography-root MuiTypography-h4">Ingredients</h4>
+<ul class="MuiList-root MuiList-padding"><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">2 ripe avocados</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">juice of 1/2 lime</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">2 cloves garlic</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1/2 red onion</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1 tsp olive oil</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1 red chili</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1 medium sized tomato</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1 tbs black pepper</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1 pinch sea salt</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1 tbs cayenne</span></div></li><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><div class="MuiListItemText-root MuiListItemText-dense"><span class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary">1/2 tbs cumin</span></div></li></ul>
+<h4 class="MuiTypography-root MuiTypography-h4">Instructions</h4>
+<div class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate" role="progressbar" aria-valuenow="0"><div class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate" style="transform:translateX(-100%)"></div></div><ul class="MuiList-root MuiList-padding"><li class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"><label class="MuiFormControlLabel-root"><span class="MuiButtonBase-root MuiIconButton-root jss158 MuiCheckbox-root MuiCheckbox-colorSecondary" aria-disabled="false"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"></path></svg><input type="checkbox" class="jss161" value="false" data-indeterminate="false"/></span></span><span class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label"> Prepare the veggies</span></label></li></ul></div></div></div></div></div><footer class="jss174"><section class="jss176"></section><section class="jss175">created with love in hamburg, germany</section></footer></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-recipe-js","jsonName":"recipes-guacamole-59b","path":"/recipes/guacamole"};window.dataPath="875/path---recipes-guacamole-59-b-2a4-qZw2EF3zH2PVNBEpxAoGl0mjI";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-29de05c999f1c9c66210.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-1c9d18b0995d17c8ff0d.js"],"component---src-templates-recipe-js":["/component---src-templates-recipe-js-5fd24b4f9bfadd6cc531.js"],"component---src-pages-404-js":["/component---src-pages-404-js-eeda9d3ec80437587707.js"],"component---src-pages-about-js":["/component---src-pages-about-js-4024d64170df874ab22c.js"],"component---src-pages-blog-js":["/component---src-pages-blog-js-3847d90d29fe304c13f2.js"],"component---src-pages-index-js":["/component---src-pages-index-js-43ebe4f3d8c343a7fe27.js"],"component---src-pages-recipes-js":["/component---src-pages-recipes-js-d3d65e8f588f1781de97.js"],"pages-manifest":["/pages-manifest-6bdc3be4b1aad7b71721.js"]};/*]]>*/</script><script src="/blog-recipes/component---src-templates-recipe-js-5fd24b4f9bfadd6cc531.js" async=""></script><script src="/blog-recipes/11-55ae1eb8ba63d770a68f.js" async=""></script><script src="/blog-recipes/0-17aa457e948a90313d27.js" async=""></script><script src="/blog-recipes/app-29de05c999f1c9c66210.js" async=""></script><script src="/blog-recipes/webpack-runtime-e6dd969c54276c01222d.js" async=""></script></body></html>

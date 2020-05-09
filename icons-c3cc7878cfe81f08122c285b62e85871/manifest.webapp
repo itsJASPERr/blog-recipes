@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "gatsby-starter-default",
+  "description": null,
+  "icons": {
+    "60": "/icons-c3cc7878cfe81f08122c285b62e85871/firefox_app_60x60.png",
+    "128": "/icons-c3cc7878cfe81f08122c285b62e85871/firefox_app_128x128.png",
+    "512": "/icons-c3cc7878cfe81f08122c285b62e85871/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
