@@ -24,7 +24,3 @@ description: 'tba'
 ### Instructions
 
 - [ ] Prepare the veggies
-
-### Instructions with Images
-
-![Prepare the veggies](1.JPEG 'Prepare the veggies')
