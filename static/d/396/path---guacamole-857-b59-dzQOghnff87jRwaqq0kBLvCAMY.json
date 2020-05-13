@@ -1,1 +1,0 @@
-{"errors":[{"message":"Cannot query field \"titleImage\" on type \"MarkdownRemarkFrontmatter\". Did you mean \"titleImag\", \"titleImmg\", or \"title\"?","locations":[{"line":12,"column":7}]}],"pageContext":{"isCreatedByStatefulCreatePages":false}}
