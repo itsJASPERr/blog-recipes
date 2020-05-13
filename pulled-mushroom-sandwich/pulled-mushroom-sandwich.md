@@ -1,6 +1,6 @@
 ---
 section: "recipe"
-path: "/pulled-mushroom-sandwich"
+path: "/recipes/pulled-mushroom-sandwich"
 date: "2019-09-09"
 title: "Pulled Mushroom Sandwich"
 author: "Jasper Meyer"

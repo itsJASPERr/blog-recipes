@@ -1,5 +1,5 @@
 ---
-section: 'recipe'
+section: 'recipe-draft'
 path: '/recipes/cale-soup'
 date: '2020-09-05'
 title: 'Cale Soup'
